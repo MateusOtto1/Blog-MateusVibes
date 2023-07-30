@@ -10,21 +10,16 @@ body {
     min-height: 100vh;
 }
 
+.logo {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ffffff;
-    height: 7vh;
     width: 100%;
     position: fixed;
     top: 0;
     z-index: 1;
-}
-
-.logo {
-    margin-left: 20px;
-    margin-bottom: 5px;
 }
 
 .games {
@@ -58,22 +53,9 @@ body {
 }
 
 .texto{
-    margin-top: 12vh;
+    margin-top: 10vh;
     background-color: #43534d;
     color:#ffffff;
-}
-
-.barra {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.barraVerde {
-    width: 70vw;
-    height: 0.5vh;
-    background-color: rgb(139, 151, 147);
-    border-radius: 10px;
 }
 
 .branco{
@@ -82,19 +64,6 @@ body {
 
 .verde {
     color: 	#a1b8af;
-}
-
-.cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5vh;
-}
-
-.backgroundCard {
-    background-color: #43534d;
-    color: #ffffff;
-    border: none;
 }
 
 .imgPost {
@@ -112,26 +81,26 @@ body {
     letter-spacing: 5px;
     font-weight: 600;
     font-size: 2rem;
-    color: rgb(0, 0, 0);
+    color: rgb(0, 31, 13);
     display: flex;
 }
 
 .linha {
     margin-top: 15px;
-    background-color: rgb(66, 90, 82);
+    background-color: #43534d;
     height: 6px;
     width: 100%;
     float: left;
 }
 
 .cardsMenor {
-    justify-content: center;
-    align-items: center;
-    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
     gap: 3vw;
     width: 100%;
     height: 100%;
-    display: inline-block;
 }
 
 .imgPostsMenor {
@@ -144,9 +113,31 @@ body {
     background-color: #43534d;
     color: #ffffff;
     height: 65vh;
+    margin-top: 2vh;
     border: none;
     float: left;
-    margin-left: 13.5%;
+}
+
+.fundoCard {
+    background-color: #aebbb6;
+    color: #000000;
+    border: none;
+    margin-top: 5vh;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.ultimoCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 3vh;
+    background-color: #43534d;
+    padding-bottom: 3.5vh;
+    width: 100%;
+    height: 100%;
 }
 
 .footer {
@@ -164,22 +155,6 @@ body {
     color: #000000;
 }
 
-.fundoCard {
-    background-color: #aebbb6;
-    color: #000000;
-    border: none;
-    margin-top: 5vh;
-    margin-left: 7%;
-    float: left;
-}
 
-.ultimoCard {
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3vh;
-    background-color: #43534d;
-    padding-bottom: 3.5vh;
-    width: 100%;
-    height: 100%;
-}
+
+
