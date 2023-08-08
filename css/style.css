@@ -110,8 +110,8 @@ body {
     color: #000000;
     border: none;
     margin-top: 5vh;
-    width: 100%;
-    height: 100%;
+    width: 60rem;
+    height: 65vh;
     background: #dbdbdb;
 }
 
@@ -125,6 +125,11 @@ body {
     width: 100%;
     height: 100%;
     background: none;
+}
+
+.imgPost{
+    width: 100%;
+    height: 40vh;
 }
 
 .text{
@@ -154,11 +159,10 @@ body {
 .imgPostsMenor {
     width: 100%;
     height: 23vh;
-    background-image: url();
 }
 
 .backgroundCardMenor {
-    height: 550px;
+    height: 450px;
     margin-top: 2vh;
     border: none;
 }
@@ -214,9 +218,9 @@ body {
 }
 
 .footer .follow a{
-    height:4rem;
-    line-height:4rem;
-    width:4rem;
+    height:3.5rem;
+    line-height:3.5rem;
+    width:3.5rem;
     border-radius: 50%;
     font-size: 1.5rem;
     background: #000000;
@@ -236,12 +240,27 @@ body {
     width: 100%;
 }
 
+@media (max-width: 1500px){
+    .fundoCardGrande {
+        height: 70vh;
+    }
+    .titulo-post1{
+        font-size: 1.5rem;
+    }
+    .descricao-post1{
+        font-size: 1.2rem;
+    }
+}
+
 @media (max-width: 768px){
     .home-title{
         font-size: 2.5rem;
     }
     .home-subtitle{
         font-size: 1.5rem;
+    }
+    .fundoCardGrande {
+        height: 80vh;
     }
 }
 
@@ -252,6 +271,9 @@ body {
     .home-subtitle{
         font-size: 1.2rem;
     }
+    .fundoCardGrande {
+        height: 85vh;
+    }
 }
 
 @media (max-width: 375px){
@@ -260,5 +282,8 @@ body {
     }
     .home-subtitle{
         font-size: 1rem;
+    }
+    .fundoCardGrande {
+        height: 95vh;
     }
 }
