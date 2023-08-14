@@ -1,6 +1,5 @@
 
 fetch("https://api-rest-post-diegocandido.herokuapp.com/postagens/").then(response => response.json()).then(result => {
-    console.log(result);
     document.querySelector(".titulo-post1").innerHTML = result[4].title;
     document.querySelector(".descricao-post1").innerHTML = result[4].description;
     document.querySelector(".nome-criador1").innerHTML = result[4].profileName;
@@ -34,5 +33,5 @@ fetch("https://api-rest-post-diegocandido.herokuapp.com/postagens/").then(respon
     document.querySelector(".nome-criador5").innerHTML = result[0].profileName;
     let imgpost5 = `https://api-rest-post-diegocandido.herokuapp.com${result[0].thumbImage}`;
     document.querySelector(".img-post5").src = imgpost5;
-})
+});
 
