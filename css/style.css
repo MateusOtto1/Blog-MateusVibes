@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,400&display=swap');
+
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -48,7 +49,7 @@ body {
     color: #6b8179;
 }
 
-.home{
+.home {
     width: 100%;
     min-height: 440px;
     background: url(../imagens/Banner.png);
@@ -58,18 +59,18 @@ body {
     display: grid;
     justify-content: center;
     align-items: center;
-    color:#ffff;
+    color: #ffff;
 }
 
-.home-text{
+.home-text {
     text-align: center;
 }
 
-.home-title{
+.home-title {
     font-size: 3rem;
 }
 
-.home-subtitle{
+.home-subtitle {
     font-size: 1.7rem;
     font-weight: 400;
 }
@@ -97,7 +98,7 @@ body {
     float: left;
 }
 
-.btnMais{
+.btnMais {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -115,7 +116,7 @@ body {
     color: #3B3B3B;
     cursor: pointer;
     display: inline-block;
-    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 20px;
     font-weight: 600;
     line-height: normal;
@@ -130,23 +131,29 @@ body {
     touch-action: manipulation;
     width: 10rem;
     will-change: transform;
-  }
-  
-  .button-28:disabled {
+}
+
+.button-28:disabled {
     pointer-events: none;
-  }
-  
-  .button-28:hover {
+}
+
+.button-28:hover {
     color: #fff;
     background-color: #1A1A1A;
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
-  }
-  
-  .button-28:active {
+}
+
+.button-28:active {
     box-shadow: none;
     transform: translateY(0);
-  }
+}
+
+.container-mais{
+    background-color: #000000;
+    width:100%;
+    height: 70vh;
+}
 
 .fundoCard {
     color: #ffffff;
@@ -178,16 +185,16 @@ body {
     background: none;
 }
 
-.imgPost{
+.imgPost {
     width: 100%;
     height: 40vh;
 }
 
-.text{
+.text {
     color: #000000d8;
 }
 
-.Banner3{
+.Banner3 {
     width: 100%;
     height: 100%;
     background: url(../imagens/Banner.png);
@@ -233,30 +240,30 @@ body {
     height: 100%;
 }
 
-.div-imagensQuadradas{
+.div-imagensQuadradas {
     margin-top: 10vh;
     width: 290px;
     height: 270px;
     align-items: center;
 }
 
-.imagensQuadradas{
+.imagensQuadradas {
     width: 280px;
     height: 200px;
 }
 
-.logoFooter{
+.logoFooter {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #000000;
 }
 
-.logoFooter:hover{
+.logoFooter:hover {
     color: rgb(196, 196, 196);
 }
 
-.follow{
+.follow {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -264,76 +271,84 @@ body {
     width: 100%;
 }
 
-.footer .follow{
+.footer .follow {
     padding: 1rem 0;
 }
 
-.footer .follow a{
-    height:3.5rem;
-    line-height:3.5rem;
-    width:3.5rem;
+.footer .follow a {
+    height: 3.5rem;
+    line-height: 3.5rem;
+    width: 3.5rem;
     border-radius: 50%;
     font-size: 1.5rem;
     background: #000000;
-    color:#fff;
-    margin:0 .1rem;
+    color: #fff;
+    margin: 0 .1rem;
     text-align: center;
 }
 
-.footer .follow a:hover{
+.footer .follow a:hover {
     background-color: #f1f1f1;
     color: #000000;
 }
 
-.footer{
+.footer {
     background-color: #747477;
     height: 100%;
     width: 100%;
 }
 
-@media (max-width: 1500px){
+@media (max-width: 1500px) {
     .fundoCardGrande {
         height: 70vh;
     }
-    .titulo-post1{
+
+    .titulo-post1 {
         font-size: 1.5rem;
     }
-    .descricao-post1{
+
+    .descricao-post1 {
         font-size: 1.2rem;
     }
 }
 
-@media (max-width: 768px){
-    .home-title{
+@media (max-width: 768px) {
+    .home-title {
         font-size: 2.5rem;
     }
-    .home-subtitle{
+
+    .home-subtitle {
         font-size: 1.5rem;
     }
+
     .fundoCardGrande {
         height: 80vh;
     }
 }
 
-@media (max-width: 425px){
-    .home-title{
+@media (max-width: 425px) {
+    .home-title {
         font-size: 2rem;
     }
-    .home-subtitle{
+
+    .home-subtitle {
         font-size: 1.2rem;
     }
+
     .fundoCardGrande {
         height: 85vh;
     }
 }
 
-@media (max-width: 375px){
-    .home-title{
+@media (max-width: 375px) {
+    .home-title {
         font-size: 1.5rem;
     }
-    .home-subtitle{
+
+    .home-subtitle {
         font-size: 1rem;
     }
+
     .fundoCardGrande {
         height: 95vh;
     }
